@@ -1,11 +1,15 @@
 {
-  "name": "nest-keycloak-auth",
+  "name": "@amin-azashikov/nest-keycloak-auth",
   "version": "0.0.1",
   "description": "Simple NestJS wrapper for keycloak-connect",
   "author": "Amin Azashikov",
   "license": "ISC",
   "main": "build/index.js",
   "types": "./build",
+  "repository": "https://github.com/Amin-Azashikov/nest-keycloak-auth.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
